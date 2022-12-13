@@ -23,8 +23,8 @@ function cuponDesconto() {
 
 function limparCampos() {
     valorInput.value = "";
-    document.querySelector(".card").style.display = "none";
     pass = "";
+    document.querySelector(".card").style.display = "none";
 }
 
 function gerarCodigoDesconto(tamanho) {
